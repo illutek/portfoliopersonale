@@ -34,6 +34,8 @@ var filesToMove = [
     './fonts/**/*.*',
     './images/**/*.*',
     './js/**/*.*',
+    './index.html',
+    './pages/**/*.*',
     './readme.md'
 ];
 
