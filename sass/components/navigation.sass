@@ -3,8 +3,16 @@
 // ////////////////////////
 
 .menu-wrapper
+  .menu-show-btn
+    cursor: pointer
+    display: block
+    &.hidden
+      display: none
   .menu
     display: none
+    &.menu-visible
+      display: block
+
   ul
     li
       float: left
