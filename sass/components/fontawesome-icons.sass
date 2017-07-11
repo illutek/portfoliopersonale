@@ -1,0 +1,72 @@
+// /////////////////////////
+// @@ FONTAWESOME ICONS
+// ////////////////////////
+
+// http://fontawesome.io/cheatsheet/
+
+.icon
+  font-family: FontAwesome
+  display: inline-block
+  padding-left: 25px
+
+.bars-icon
+  &:before
+    @extend .icon
+    content: "\f0c9"
+
+.close-icon
+  &:before
+    @extend .icon
+    content: "\f00d"
+    //content: '\f177'
+    font-size: 2em
+
+.phone-icon
+  &:before
+    @extend .icon
+    content: "\f095"
+
+.mail-icon
+  &:before
+    @extend .icon
+    content: "\f003"
+    padding-right: 5px
+  &:hover
+    &:before
+      @extend .icon
+      content: "\f0e0"
+      padding-right: 5px
+
+.back-icon
+  &:before
+    @extend .icon
+    content: "\f100"
+
+.facebook-icon
+  &:before
+    @extend .icon
+    content: '\f09a'
+
+.angle-down
+  &:before
+    @extend .icon
+    content: '\f107'
+
+.angle-up
+  &:before
+    @extend .icon
+    content: '\f106'
+
+
+// Bij agenda
+.date-icon
+  &:before
+    @extend .icon
+    content: "\f073"
+
+// geen icon bij de teaser display
+.path-agenda
+  .date-icon
+    &:before
+      content: ''
+      padding-right: 0
