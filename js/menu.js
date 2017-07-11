@@ -4,6 +4,7 @@
 
     $(document).ready(function () {
         $('.menu').removeClass('menu-visible');
+        $('.menu-show-btn').removeClass('hidden');
 
         $('.menu-show-btn').click(function(){
             $('.menu').addClass('menu-visible');
