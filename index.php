@@ -1,12 +1,18 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stefan
+ * Date: 19.07.17
+ * Time: 17:30
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
-    <!--<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">-->
-    <!--<link href="https://fonts.googleapis.com/css?family=Poiret+One|Wire+One" rel="stylesheet">-->
-    <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Poiret+One|Wire+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
 </head>
 <body class="frontpage">
 <div class="frontpage-wrapper">
@@ -14,13 +20,13 @@
         <div class="firm-name-wrap">illutek</div>
         <div class="menu-wrap">
             <div class="menu-show-btn">
-                <span class="bars-icon-big"></span>
+                <img src="images/menu-w45.png" alt="menu">
             </div>
             <div class="menu">
                 <ul>
                     <li><a href="#">home</a></li>
                     <li><a href="#">contact</a></li>
-                    <li><a href="#">summits</a></li>
+                    <li><a href="pages/summits.php">summits</a></li>
                     <li><a href="#">about me</a></li>
                     <li><a class="close-menu-btn" href="#">X</a></li>
                 </ul>
