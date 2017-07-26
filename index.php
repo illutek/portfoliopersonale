@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
 </head>
 <body class="frontpage">
-<div class="frontpage-wrapper">
+<div class="introdution-page-wrap">
     <div class="header-top">
         <div class="firm-name-wrap">illutek</div>
         <div class="menu-wrap">
@@ -35,7 +35,7 @@
 
     </div>
 
-    <div class="header">
+    <div class="page-title--wrap">
         <h1>Frontend it's a hobby</h1>
         <h2>{it's an addiction}</h2>
     </div>

@@ -11,7 +11,7 @@
 <div class="firm-name-wrap">illutek</div>
 <div class="menu-wrap">
     <div class="menu-show-btn">
-        <img src="images/menu-w45.png" alt="menu">
+        <img src="../../images/menu-w45.png" alt="menu">
     </div>
     <div class="menu">
         <ul>
