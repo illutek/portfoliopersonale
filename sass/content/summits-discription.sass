@@ -17,20 +17,25 @@
     line-height: 1.4
   .summits-description
     padding: 30px 120px 30px 120px
+    max-height: 95%
+    //border: 1px solid black
     .element, .summits-outer-container
       width: 100%
       //height: 100%
-      height: 500px
+      //height: 500px
       //margin: 0 0 50px 0
       //background: white
     .summits-outer-container
       overflow: hidden
       position: relative
+      height: 100%
     .summits-inner-container
       position: absolute
       left: 0
       overflow-x: hidden
       overflow-y: scroll
+      height: 100%
+      padding-right: 25px
     .summits-inner-container::-webkit-scrollbar
       //display: none
     .summits-inner-container::-webkit-scrollbar-track
@@ -38,7 +43,7 @@
       //border-radius: 10px
       //background-color: #F5F5F5
     .summits-inner-container::-webkit-scrollbar
-      width: 15px
+      width: 2px
     .summits-inner-container::-webkit-scrollbar-thumb
       //border-radius: 10px
       //-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3)

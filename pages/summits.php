@@ -87,7 +87,7 @@
         <h2>Images</h2>
         <div class="images-grid">
           <img src="../images/summits-images/illutek.jpeg" alt="illutek">
-          <img src="../images/summits-images/illutek.jpeg" alt="illutek">
+          <img src="../images/summits-images/illutek-2.JPG" alt="illutek">
           <img src="../images/summits-images/illutek.jpeg" alt="illutek">
         </div>
 
