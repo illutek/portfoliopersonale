@@ -19,7 +19,7 @@
   <div class="introdution-page-wrap">
 
     <div class="header-top">
-        <?php include_once "includes/header-top.inc.php"; ?>
+      <?php include_once "includes/header-top.inc.php"; ?>
     </div>
 
     <!--    Content-->
@@ -100,5 +100,12 @@
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../js/menu.js"></script>
 <script src="../js/smooth-scroll.js"></script>
+<script>
+  if ($('.element')[0].scrollHeight > $('.element').innerHeight()) {
+    $(".summits-description .summits-inner-container::-webkit-scrollbar").css("display", "block");
+  } else {
+    $(".summits-description .summits-inner-container::-webkit-scrollbar").css("display", "none");
+  }
+</script>
 </body>
 </html>

@@ -1,0 +1,45 @@
+// ////////////////////////////////
+// @@ SUMMITS DESCRIPTIONS
+// ///////////////////////////////
+
+.summits-description-wrap
+  display: grid
+  grid-template-columns: 1fr 1fr
+  h1
+    margin: 30px 0 30px
+  h2
+    margin: 30px 0 30px
+  p
+    margin: 50px 0 50px
+    font-family: 'Work Sans', sans-serif
+    font-weight: 400
+    font-size: 1.5em
+    line-height: 1.4
+  .summits-description
+    padding: 30px 120px 30px 120px
+    .element, .summits-outer-container
+      width: 100%
+      //height: 100%
+      height: 500px
+      //margin: 0 0 50px 0
+      //background: white
+    .summits-outer-container
+      overflow: hidden
+      position: relative
+    .summits-inner-container
+      position: absolute
+      left: 0
+      overflow-x: hidden
+      overflow-y: scroll
+    .summits-inner-container::-webkit-scrollbar
+      //display: none
+    .summits-inner-container::-webkit-scrollbar-track
+      //-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)
+      //border-radius: 10px
+      //background-color: #F5F5F5
+    .summits-inner-container::-webkit-scrollbar
+      width: 15px
+    .summits-inner-container::-webkit-scrollbar-thumb
+      //border-radius: 10px
+      //-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3)
+      background-color: $summits-front-bcg
