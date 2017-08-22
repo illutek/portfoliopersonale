@@ -2,10 +2,16 @@
 // @@ SUMMITS OVERVIEW
 // ////////////////////////
 
-
 .summits-odd
   background-color: $summits-odd-bcg
   color: $summits-front-bcg
+
+.summits-even
+  background-color: $summits-even-bcg
+  color: $summits-odd-bcg
+
+
+.summits-odd, .summits-even
   display: grid
   height: 100vh
   grid-template-columns: 1fr

@@ -19,7 +19,7 @@
   <div class="introdution-page-wrap">
 
     <div class="header-top">
-      <?php include_once "includes/header-top.inc.php"; ?>
+        <?php include_once "includes/header-top.inc.php"; ?>
     </div>
 
     <!--    Content-->
@@ -42,57 +42,36 @@
       <img src="../images/summits-arrow-up.png" alt="arrow up">
     </div>
 
-    <div class="summits-description-wrap">
-      <div class="summits-description">
+      <?php include_once "includes/summits/summit-one.inc.php"; ?>
+    <!-- end summit-one -->
 
-        <div class="summits-outer-container">
-          <div class="summits-inner-container">
-            <div class="element">
-              <h2>Personal project</h2>
-              <h1>illutek</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid
-                eligendi modi nesciunt, nisi quaerat quis! Dignissimos dolores ex libero
-                magni porro quae quo sequi sunt voluptatum? Assumenda, delectus, voluptatibus.
-              </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid
-                architecto
-                culpa ducimus ea error est, hic nesciunt, provident tenetur, veritatis vitae!
-                Aliquam consequatur consequuntur enim fuga maxime minus natus obcaecati odio
-                praesentium repudiandae? Atque consequatur consequuntur
-                culpa error esse incidunt ipsam iste magnam, maiores necessitatibus porro
-                quidem s
-                aepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid
-                eligendi modi nesciunt, nisi quaerat quis! Dignissimos dolores ex libero
-                magni porro quae quo sequi sunt voluptatum? Assumenda, delectus, voluptatibus.
-              </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid
-                architecto
-                culpa ducimus ea error est, hic nesciunt, provident tenetur, veritatis vitae!
-                Aliquam consequatur consequuntur enim fuga maxime minus natus obcaecati odio
-                praesentium repudiandae? Atque consequatur consequuntur
-                culpa error esse incidunt ipsam iste magnam, maiores necessitatibus porro
-                quidem s
-                aepe! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid
-                eligendi modi nesciunt, nisi quaerat quis! Dignissimos dolores ex libero
-                magni porro quae quo sequi sunt voluptatum? Assumenda, delectus, voluptatibus.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="summits-images">
-        <h2>Images</h2>
-        <div class="images-grid">
-          <img src="../images/summits-images/illutek.jpeg" alt="illutek">
-          <img src="../images/summits-images/illutek-2.JPG" alt="illutek">
-          <img src="../images/summits-images/illutek.jpeg" alt="illutek">
-        </div>
-
-      </div>
+    <div class="scroll-down-wrap">
+      <img src="../images/summits-arrow-down.png" alt="arrow up">
     </div>
+  </div>
+
+  <div class="summits-even">
+    <div class="scroll-up-wrap">
+      <!-- TODO arrows moeten aangepst aan even bcg -->
+      <img src="../images/summits-arrow-up.png" alt="arrow up">
+    </div>
+
+      <?php include_once "includes/summits/summit-two.inc.php"; ?>
+    <!-- end summit-one -->
+
+    <div class="scroll-down-wrap">
+      <!-- TODO arrows moeten aangepst aan even bcg -->
+      <img src="../images/summits-arrow-down.png" alt="arrow up">
+    </div>
+  </div>
+
+  <div class="summits-odd">
+    <div class="scroll-up-wrap">
+      <img src="../images/summits-arrow-up.png" alt="arrow up">
+    </div>
+
+      <?php include_once "includes/summits/summit-three.inc.php"; ?>
+    <!-- end summit-one -->
 
     <div class="scroll-down-wrap">
       <img src="../images/summits-arrow-down.png" alt="arrow up">
@@ -106,11 +85,11 @@
 <script src="../js/menu.js"></script>
 <script src="../js/smooth-scroll.js"></script>
 <script>
-  if ($('.element')[0].scrollHeight > $('.element').innerHeight()) {
-    $(".summits-description .summits-inner-container::-webkit-scrollbar").css("display", "block");
-  } else {
-    $(".summits-description .summits-inner-container::-webkit-scrollbar").css("display", "none");
-  }
+    if ($('.element')[0].scrollHeight > $('.element').innerHeight()) {
+        $(".summits-description .summits-inner-container::-webkit-scrollbar").css("display", "block");
+    } else {
+        $(".summits-description .summits-inner-container::-webkit-scrollbar").css("display", "none");
+    }
 </script>
 </body>
 </html>
