@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,400" rel="stylesheet">
 </head>
 <body>
-<div class="summits">
+<div class="summits" id="summits-top">
   <div class="introdution-page-wrap">
 
     <div class="header-top">
@@ -30,30 +30,29 @@
 
     <div class="scroll-down-wrap">
       <div class="scroll-down">
-        <img src="../images/white-arrow-down.png" alt="arrow down">
+        <a href="#one"><img src="../images/white-arrow-down.png" alt="arrow down"></a>
       </div>
     </div>
   </div>
 </div>
 <div class="summits-overview-wrap">
 
-  <div class="summits-odd">
+  <div class="summits-odd" id="one">
     <div class="scroll-up-wrap">
-      <img src="../images/summits-arrow-up.png" alt="arrow up">
+      <a href="#summits-top"><img src="../images/summits-arrow-up.png" alt="arrow up"></a>
     </div>
 
       <?php include_once "includes/summits/summit-one.inc.php"; ?>
     <!-- end summit-one -->
 
     <div class="scroll-down-wrap">
-      <img src="../images/summits-arrow-down.png" alt="arrow up">
+      <a href="#two"><img src="../images/summits-arrow-down.png" alt="arrow up"></a>
     </div>
   </div>
 
-  <div class="summits-even">
+  <div class="summits-even" id="two">
     <div class="scroll-up-wrap">
-      <!-- TODO arrows moeten aangepst aan even bcg -->
-      <img src="../images/summits-arrow-up.png" alt="arrow up">
+      <a href="#one"><img src="../images/white-arrow-up.png" alt="arrow up"></a>
     </div>
 
       <?php include_once "includes/summits/summit-two.inc.php"; ?>
@@ -61,7 +60,7 @@
 
     <div class="scroll-down-wrap">
       <!-- TODO arrows moeten aangepst aan even bcg -->
-      <img src="../images/summits-arrow-down.png" alt="arrow up">
+      <img src="../images/white-arrow-down.png" alt="arrow up">
     </div>
   </div>
 
