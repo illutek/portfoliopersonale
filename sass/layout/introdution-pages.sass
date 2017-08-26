@@ -4,12 +4,17 @@
 
 .introdution-page-wrap
   height: 100vh
-  display: grid
+  //display: grid
+  +display-grid
+  -ms-grid-columns: auto
   grid-template-columns: auto
+  -ms-grid-rows: 50px auto 40px
   grid-template-rows: 50px auto 40px
   // firm name and menu region
   .header-top
-    display: grid
+    +display-grid
+    //display: grid
+    -ms-grid-columns: 100px auto
     grid-template-columns: 100px auto
     padding: 20px
     .firm-name-wrap

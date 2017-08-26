@@ -12,12 +12,17 @@
 
 
 .summits-odd, .summits-even
-  display: grid
+  //display: grid
+  +display-grid
   height: 100vh
+  -ms-grid-columns: 1fr
   grid-template-columns: 1fr
+  -ms-grid-rows: 40px auto 40px
   grid-template-rows: 40px auto 40px
   .summits-description-wrap
-    display: grid
+    //display: grid
+    +display-grid
+    -ms-grid-columns: 1fr 1fr
     grid-template-columns: 1fr 1fr
     h1
       margin: 30px 0 30px
@@ -34,8 +39,11 @@
       width: 100%
       height: auto
     .images-grid
-      display: grid
+      //display: grid
+      +display-grid
+      -ms-grid-columns: 1fr 1fr 1fr 1fr
       grid-template-columns: repeat(4 , 1fr)
+      -ms-grid-rows: 1fr 1fr 1fr 1fr
       grid-template-rows: repeat(4, 1fr)
       img:nth-of-type(1)
         grid-column: 1 /span 2

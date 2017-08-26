@@ -7,7 +7,7 @@
 .icon
   font-family: FontAwesome
   display: inline-block
-  padding-left: 25px
+  padding-right: 15px
 
 .bars-icon
   &:before
@@ -48,6 +48,12 @@
     @extend .icon
     content: "\f100"
 
+
+.externel-link
+  &:before
+    @extend .icon
+    content: '\f08e'
+
 .facebook-icon
   &:before
     @extend .icon
@@ -64,15 +70,3 @@
     content: '\f106'
 
 
-// Bij agenda
-.date-icon
-  &:before
-    @extend .icon
-    content: "\f073"
-
-// geen icon bij de teaser display
-.path-agenda
-  .date-icon
-    &:before
-      content: ''
-      padding-right: 0
