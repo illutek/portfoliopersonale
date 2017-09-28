@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "portfolio voor mijn hobby en eindwerprojecten te bundelen",
   "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
   "author": "Stefaan Vandenborne <stefanvandenborne@gmail.com>",
   "license": "MIT",
   "devDependencies": {
