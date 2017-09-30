@@ -32,9 +32,9 @@
     <div class="summits-images">
         <h2>Images</h2>
         <div class="images-grid">
-            <img src="../images/summits-images/summit-two-1.jpg" alt="illutek">
-            <img src="../images/summits-images/summit-two-2.jpeg" alt="illutek">
-            <img src="../images/summits-images/summit-two-3.jpg" alt="illutek">
+            <img src="../images/summits-images/jpkot01.JPG" alt="JPKOT">
+            <img src="../images/summits-images/jpkot02.JPG" alt="JPKOT">
+            <img src="../images/summits-images/jpkot03.JPG" alt="JPKOT">
         </div>
 
     </div>
